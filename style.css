@@ -64,7 +64,7 @@ button:hover {
   width: 15%;
   height: 50%;
   text-align: center;
-  rotate: 2deg; /* Keeping it consistent with the rotation style */
+  rotate: 2deg;
 }
 
 .signup-box h3 {
