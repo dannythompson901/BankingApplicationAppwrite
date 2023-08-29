@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: relative;
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+  padding: 1rem 0;
+  z-index: 10;
+}
+
+.container {
+  width: 140%;
+  height: 600px;
+  margin-top: -65px;
+  margin-left: -20px;
+  background: rgb(82, 132, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(82, 132, 0, 1) 0%,
+    rgba(116, 187, 0, 1) 28%,
+    rgba(82, 132, 0, 1) 88%
+  );
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  rotate: -2deg;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #c9ffb3;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.hero {
+  position: relative;
+  width: 40%;
+  height: 110%;
+  object-fit: fill;
+  margin: -28px;
+}
+
+.signup-box {
+  background-color: white;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 15%;
+  height: 50%;
+  text-align: center;
+  rotate: 2deg; /* Keeping it consistent with the rotation style */
+}
+
+.signup-box h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.signup-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.signup-box button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-box button:hover {
+  background-color: #0056b3;
+}
